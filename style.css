@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+
+footer{
+    margin-top: 20px;
+    background: linear-gradient(#F6F390, #D5D533);
+    padding: 30px;
+}
