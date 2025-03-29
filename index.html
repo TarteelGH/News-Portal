@@ -1,31 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News Portal</Portal></title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Navbar Example</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="main-nav">
-            <h1 class="title">News Portal</h1>
-            <div class="searchDiv">
-                <input class="searchtext" type="text" />
-                <button class="searchBtn">Search a topic</button>
-                <ul>
-                    <li><a href="#">الرئيسية</a></li>
-                    <li><a href="#">سياسة</a></li>
-                    <li><a href="#">اقتصاد</a></li>
-                    <li><a href="#">رياضة</a></li>
-                    <li><a href="#">صحة</a></li>
-                </ul>
-                <div class="clear"></div>
-            </div>
-
-
+    <nav class="navbar">
+        <div class="weather">
+            <span>21°C</span>
+            <img src="weather-icon.png" alt="Weather Icon">
+            <span>الدوحة</span>
         </div>
-        <footer>Company name. Copyright &copy 2022-2023</footer>
-    </div>
+        <input type="text" placeholder="ادخل كلمة للبحث" class="search-bar">
+        <div class="menu">
+            <a href="#">الرئيسية</a>
+            <a href="#">سياسة</a>
+            <a href="#">اقتصاد</a>
+            <a href="#">صحة</a>
+            <a href="#">رياضة</a>
+        </div>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+    </nav>
 </body>
 </html>
+
